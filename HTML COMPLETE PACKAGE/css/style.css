@@ -1,0 +1,14 @@
+/* import font from fonts.css file */
+@import url(./fonts.css);
+
+/* start navigation*/
+
+.header_area .main-menu .nav-item .nav-link{
+    font-family: "Roboto", serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1rem;
+    color: #000;
+}
+
+/* end navigation*/

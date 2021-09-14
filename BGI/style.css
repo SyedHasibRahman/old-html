@@ -1,0 +1,27 @@
+/*
+.box{
+	height:  600px;
+	width: 600px;
+	background-color:green;
+	background-image:url(images/batcha.gif);
+	margin: auto;
+	background-repeat: no-repeat;
+	background-position:center center;
+	background-size:100% 100%;
+}
+.box2{
+	height: 500px;
+	width: 500px;
+	background-color: aqua;
+	margin: auto;
+	background-image:url(images/j.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-size:100% 100%;
+	background-position:center center;
+}
+.box2:hover{
+	background-size:200% 200%;
+	transition:1s;
+}
+*/

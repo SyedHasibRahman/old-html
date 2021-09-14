@@ -1,0 +1,46 @@
+.mid{
+	width: 50%;
+	margin: 0 auto;
+}
+.main-sec{
+	text-align: center;
+}
+.main-sec img{
+	margin-top: 40px;
+}
+.main-form input{
+	height: 35px;
+    width: 90%;
+	border: 1px solid #444;
+	float: left;
+	border-left: none;
+	border-right: none;
+}
+button{
+	width: 9%;
+    float: left;
+    border-radius: 0px 20px 20px 0px;
+    height: 40px;
+    background: transparent;
+    border: 1 px solid #333;
+}
+.buttons{
+	margin-top: 80px;
+}
+.buttons input{
+    height: 35px;
+    background-color: #F6F6F6;
+    border-radius: 4px;
+	border: 1px solid transparent;
+	padding: 10px;
+	margin-right: 10px;
+}
+.buttons input:hover{
+	border: 1px solid #333;
+	transition: .5s;
+	background-color:#F5F5F5;
+    border-radius: 4px;
+}
+.buttons p{
+	margin-top:25px;
+}

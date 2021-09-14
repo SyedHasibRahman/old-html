@@ -1,0 +1,49 @@
+/* import font from fonts.css file */
+@import url(./fonts.css);
+
+/* css variables */
+@import url(./partials/_variables.css);
+
+@media screen and (max-width: 450px) {
+    .text-box { 
+      top: 20%;
+      left: 50%;
+      z-index: -2;
+    } 
+    .heading-primary .heading-primary-main{
+        font-size: 18px;
+    }
+    .heading-primary .heading-primary-sub{
+        font-size: 10px;
+    }
+  }
+@media screen and (max-width: 480px) {  
+    .heading-primary-main{
+        font-size: 20px;
+    }
+    .heading-primary-sub{
+        font-size: 13px;
+    }
+  }
+  @media screen and (max-width: 992px) { 
+    .heading-primary-main{
+        font-size: 30px;
+    }
+    .heading-primary-sub{
+        font-size: 18px;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .header_area .main-menu .nav-item .nav-link{
+        font: normal 300 12px/2px var(--roboto);   
+        font-weight: 900;
+    }
+    .navbar-collapse{
+        background: rgba(40, 180, 133, 0.2);
+    }
+    .text-box { 
+        top: 50%;
+        left: 50%;
+        z-index: -2; 
+      } 
+  }

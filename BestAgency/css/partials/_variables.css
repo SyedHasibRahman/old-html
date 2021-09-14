@@ -1,0 +1,27 @@
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+/* css variables 128, 255, 219, 0.8 || (22, 219, 147, 0.8)*/
+
+:root{
+    --primary-color: #80ffdb;
+    --primary-color2: #00f5d4; 
+    --primary-color2: #16db93; 
+    --title-color: #141313;
+    --text-color: #777777;
+    --border-color: #201f1f17;
+    --tran-black: rgba(0, 0, 0, 0.8);
+    --gradient-color: linear-gradient(to right, rgba(0, 198, 255, 0.8),
+    rgba(40, 180, 133, 0.8),rgba(0, 245, 212, 0.8)); 
+    --shadow-color: 20px 10px 30px  rgba(15, 9, 9, 0.3);
+    --box-shadow: 0px 10px 30px rgba(88, 88, 88, 0.6);
+    --white: #ffffff;
+    
+    /* font family variabels */
+    --roboto: "Roboto",serif;
+}
+

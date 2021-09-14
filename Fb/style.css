@@ -1,0 +1,123 @@
+
+body, input, h1, h2, h3, h4, h5, h6, p, a, ul, li, ol{
+	margin: 0px;
+	padding: 0px;
+}
+/*** Header***/
+.mid{
+	width: 80%;
+	margin: 0 auto;
+}
+header{
+	background-color:#3A5795;
+	padding: 8px;
+	border-bottom: 1px solid #1C326C;
+}
+header:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+.logo{
+	float:left;
+	overflow: hidden;
+	width: 60%;
+}
+.login-area{
+	width: 40%;
+	float:left;
+	overflow: hidden;
+	font-family: tahoma;
+}
+.email_or_phn input[type="email"],
+.pass input{
+	display: block;
+	margin: 3px 0px;
+	border: 1px solid #1D2A5B;
+	padding: 2.5px;
+}
+.email_or_phn input[type="checkbox"]{
+	margin-top: 4px;
+    float: left;
+    margin-right: 5px;
+}
+.email_or_phn, .pass, .submit{
+	 float: left;
+	 overflow: hidden;
+	 margin-right: 10px;
+}
+.email_or_phn label:first-child, 
+.pass label, 
+.submit label{
+	color:#fff;
+	font-size: 13px;
+}
+.email_or_phn label:last-child,
+.pass a{
+	font-size:13 px;
+	color: #9DACCB;
+}
+.pass a{
+	text-decoration: none; 
+}
+.pass a:hover{
+	text-decoration: underline; 
+}
+.submit {
+	margin-top:20px;
+}
+.submit input{
+	  background-color:#5973A8;
+	  color: #FFF;
+	  font-weight: bold;
+	  border: 1px solid #1D2A5B;
+	  padding: 2.5px;
+	  font-size: 13px;
+}
+/*** fb-body***/
+.fb-body{
+	background-color:#EDF0F5;	
+}
+.fb-body:after{
+	content: "";
+	display: block;
+		clear: both;
+}
+.fb-left{
+	width: 60%;
+	float: left;
+}
+.fb-left h3{
+	font-family: arial;
+	font-size: 28px;
+	color: #333;
+	margin: 30px 0px;
+	font-weight: 700;
+}
+.icon-sec:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.fb-left  .icon-sec img{
+	float: left;
+	overflow: hidden;
+	height: 50px;
+	width: auto; 
+}
+.icon-sec img{
+	margin: 10px 0px;
+	float: left;
+	overflow: hidden;
+}
+.icon-sec p{
+	margin-left: 20px;
+	margin-top: 30px;
+	float: left;
+	overflow: hidden;
+}
+.icon-sec p span{
+	font-weight: bold;
+	margin-right: 10px;
+	color: #333;
+}
